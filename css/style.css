@@ -482,9 +482,9 @@ ul.wmuSliderPagination {
 	font-size: 16px;
 	font-weight: bold;
 	text-align: center;
-	background-color: #dedede;
+	background-color: #5d2a22;
 	/* Color de fondo */
-	color: #2a404e;
+	color: white;
 	/* Color de texto */
 	border: none;
 	border-radius: 8px;
@@ -492,27 +492,19 @@ ul.wmuSliderPagination {
 	cursor: pointer;
 	transition: background-color 0.3s ease, transform 0.3s ease;
 	/* Transiciones suaves */
-	text-decoration: underline;
-	/* Subrayado cuando el mouse pasa por encima del enlace */
 
 }
 
 /* Efecto al pasar el mouse */
 .btn:hover {
-	background-color: #2e3e4e;
+	background-color: #f9f6f6;
 	/* Cambio de color al pasar el mouse */
 	transform: translateY(-3px);
 	/* Efecto de elevación */
+	color: white;
 }
 
 
-/* Efecto al pasar el mouse en el enlace */
-.btn a:hover {
-	text-decoration: underline;
-	/* Subrayado cuando el mouse pasa por encima del enlace */
-	color: #ef664d;
-	/* Color de texto */
-}
 
 
 /* Default Skin */
